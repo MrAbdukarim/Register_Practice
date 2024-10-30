@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: rgb(241, 241, 241);
+}
+
+header {
+  width: 98%;
+  margin: auto;
+  padding: 10px;
+}
+
+header nav {
+  background: rgb(2, 180, 180);
+  padding: 25px 5px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: whitesmoke;
+  margin-right: 20px;
+}
+header nav a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.container {
+  width: 98%;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.container > h1 {
+  color: rgb(2, 180, 180);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form_section {
+  width: 50%;
+  margin: auto;
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #3d3d3d3f;
+}
+
+.form_section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_section form label {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.form_section form input {
+  padding: 8px;
+  border: 1px solid rgb(205, 205, 205);
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+.form_section form button {
+  padding: 10px;
+  background-color: rgb(2, 180, 180);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+}
+
+.form_section form button:hover {
+  background-color: rgb(4, 152, 152);
+  cursor: pointer;
+}
+
+.form_section form p {
+  padding-top: 10px;
+  color: rgba(0, 161, 0, 0.752);
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.container h2 {
+  color: rgb(66, 65, 65);
+  margin-bottom: 15px;
+}
+
+.table_section table {
+  width: 100%;
+  text-align: left;
+}
+
+.table_section table th {
+  background-color: rgb(2, 180, 180);
+  padding: 8px;
+  color: white;
+}
+
+.table_section table td {
+  padding: 8px;
+}
+
+.table_section table td span {
+  color: red;
+}
